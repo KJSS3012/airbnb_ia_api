@@ -1,1 +1,3 @@
-export { extractInfoTool } from "./extractInfo.js";
+import { extractInfoTool } from "./extractInfo.js";
+
+export { extractInfoTool };

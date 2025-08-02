@@ -11,7 +11,7 @@ export const extractInfoTool = tool(
 
     const prompt = `
 Extraia as seguintes informações da solicitação abaixo e retorne APENAS em formato JSON:
-- startDate: string (data de início da viagem no formato YYYY-MM-DD)
+- startDate: string (data de início da viagem no formato YYYY-MM-DD, considerar o ano atual)
 - endDate: string (data final no formato YYYY-MM-DD)
 - days: número de dias que a pessoa quer viajar
 - city: cidade de destino

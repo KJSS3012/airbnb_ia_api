@@ -1,9 +1,12 @@
 {
   "name": "vozia",
   "version": "1.0.0",
-  "description": "",
+  "description": "Assistente inteligente de viagens com IA que utiliza LangGraph e Google Gemini para processar solicitações de viagem através de áudio ou texto",
   "main": "app.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KJSS3012/airbnb_ia_api.git"
@@ -21,7 +24,8 @@
     "@langchain/core": "^0.3.66",
     "@langchain/google-genai": "^0.2.16",
     "@langchain/langgraph": "^0.4.0",
-    "dotenv": "^16.4.5",
+    "axios": "^1.11.0",
+    "dotenv": "^^16.4.5",
     "langchain": "^0.3.30",
     "zod": "^3.25.76"
   }
