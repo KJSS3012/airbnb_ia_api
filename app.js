@@ -1,9 +1,8 @@
-import test from "./src/api/agent/index.js";
-import { graphTest } from "./src/api/graph/index.js";
+import { graphTest } from "./src/graph/index.js";
 
 (async () => {
   try {
-    await test();
+    await graphTest();
   } catch (error) {
     console.error("Error fetching data:", error);
   }
